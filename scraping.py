@@ -15,4 +15,3 @@ for a1 in a1_list:
     soup_h_list = html_soup.select_one(a1)
     for soup_a in soup_h_list:
         print(soup_a.text)
-
